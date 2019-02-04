@@ -224,7 +224,7 @@ class OAuthStore extends \OAuthDataStore
 
     /**
      * @param string $requestToken
-     * @param string $consumer
+     * @param \OAuthConsumer $consumer
      * @param string|null $verifier
      * @return \OAuthToken
      */
